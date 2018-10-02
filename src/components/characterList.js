@@ -13,8 +13,8 @@ class characterList extends Component{
 
 		return (
 
-			<div>
-			<h4>characters</h4>
+			<div className="Characters">
+			<h4>Characters</h4>
 			<ul className="list-group"> 
 				{
 				this.props.characters.map(character =>{
